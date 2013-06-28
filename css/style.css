@@ -546,6 +546,20 @@ footer {
 	background: #832c21;
 }
 
+footer p, a {
+
+	color: white;
+	font-size: 11px;
+	text-align: center;
+}
+
+footer a:hover {
+
+	color: black;
+	text-decoration: none;
+}
+
+
 /* Media */
 
 /* Landscape phones and down */
@@ -553,14 +567,14 @@ footer {
 
 .logosm{
 
-background: url('../img/logosm.png') no-repeat;
+background: url('../img/logosm.png') no-repeat center;
 text-shadow:none !important;
 text-align: center;
 width: 380px;
 height: 100px;
 }
 
-.logo {
+.logo, .eagle {
 
 	display: none;
 }
